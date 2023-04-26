@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    nav{
+       background-color: rgb(248,238,225);
+       height: 60px;
+        .navbar{
+          background-color: rgb(248,238,225);
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          height: 100%;
+          max-width: 70%;
+          margin: 0 auto;
+          
+          img{
+            width: 35px;
+            height: 30px;
+            
+            
+          }
+          .plist{
+            display: flex;
+            gap: 50px;
+            margin-left: 100px;
+            a{
+              text-decoration: none;
+              color: black;
+
+              &:hover{
+                color: red;
+              }
+            }
+          }
+          .icontext{
+            display: flex;
+            gap: 30px;
+            a{
+              text-decoration: none;
+              color: black;
+
+              &:hover{
+                color: red;
+              }
+            }
+          }
+        }
+    }
+
+.tinysection{
+  background-color: black;
+  height: 20px;
+
+  p{
+    color: wheat;
+    font-size: 13px;
+    text-align: center;
+    padding: 1px;
+  }
+}
+
+.herosection{
+  background-color: rgb(248,238,225);
+  .herosectionwrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 60px;
+    .imagetext{
+      img{
+        width: 500px;
+        height: 500px;
+
+      }
+      .peach{
+        width: 400px;
+      }
+    }
+    
+    .h1wrapper{
+      
+      
+      p{
+        background-color: purple;
+        width: 250px;
+        height: 30px;
+        color: wheat;
+        text-align: center;
+        border-radius: 5px;
+        padding-top: 3px;
+      }
+      .accordion-item{
+        width: 300px;
+        
+        .accordion-body{
+          width: 300px;
+          padding-top: 20px;
+        }
+      }
+      h1{
+        font-weight: 900;
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
+
+footer{
+  background-color: black;
+  
+
+  .footerwrapper{
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .logo{
+      img{
+        width: 35px;
+        height: 30px;
+      }
+    }
+    .smedia{
+      img{
+        width: 32px;
+        height: 24px;
+      }
+    }
+    .words{
+      ul{
+        display: flex;
+        gap: 10px;
+        list-style: none;
+       
+        li{
+          padding-top: 5px;
+          a{
+            text-decoration: none;
+            color: wheat;
+            font-size: 9px;
+          }
+        }
+      }
+    }
+    .logo{
+      a{
+        text-decoration: none;
+            color: wheat;
+            font-size: 9px;
+      }
+    }
+  }
+  
+}
+
+
+
+
+
+
+
+
+  }

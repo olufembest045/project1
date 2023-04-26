@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body nav {
+  background-color: rgb(248, 238, 225);
+  height: 60px;
+}
+body nav .navbar {
+  background-color: rgb(248, 238, 225);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  max-width: 70%;
+  margin: 0 auto;
+}
+body nav .navbar img {
+  width: 35px;
+  height: 30px;
+}
+body nav .navbar .plist {
+  display: flex;
+  gap: 50px;
+  margin-left: 100px;
+}
+body nav .navbar .plist a {
+  text-decoration: none;
+  color: black;
+}
+body nav .navbar .plist a:hover {
+  color: red;
+}
+body nav .navbar .icontext {
+  display: flex;
+  gap: 30px;
+}
+body nav .navbar .icontext a {
+  text-decoration: none;
+  color: black;
+}
+body nav .navbar .icontext a:hover {
+  color: red;
+}
+body .tinysection {
+  background-color: black;
+  height: 20px;
+}
+body .tinysection p {
+  color: wheat;
+  font-size: 13px;
+  text-align: center;
+  padding: 1px;
+}
+body .herosection {
+  background-color: rgb(248, 238, 225);
+}
+body .herosection .herosectionwrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 60%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+body .herosection .herosectionwrapper .imagetext img {
+  width: 500px;
+  height: 500px;
+}
+body .herosection .herosectionwrapper .imagetext .peach {
+  width: 400px;
+}
+body .herosection .herosectionwrapper .h1wrapper p {
+  background-color: purple;
+  width: 250px;
+  height: 30px;
+  color: wheat;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 3px;
+}
+body .herosection .herosectionwrapper .h1wrapper .accordion-item {
+  width: 300px;
+}
+body .herosection .herosectionwrapper .h1wrapper .accordion-item .accordion-body {
+  width: 300px;
+  padding-top: 20px;
+}
+body .herosection .herosectionwrapper .h1wrapper h1 {
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+body footer {
+  background-color: black;
+}
+body footer .footerwrapper {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body footer .footerwrapper .logo img {
+  width: 35px;
+  height: 30px;
+}
+body footer .footerwrapper .smedia img {
+  width: 32px;
+  height: 24px;
+}
+body footer .footerwrapper .words ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+body footer .footerwrapper .words ul li {
+  padding-top: 5px;
+}
+body footer .footerwrapper .words ul li a {
+  text-decoration: none;
+  color: wheat;
+  font-size: 9px;
+}
+body footer .footerwrapper .logo a {
+  text-decoration: none;
+  color: wheat;
+  font-size: 9px;
+}
