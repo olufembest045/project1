@@ -5,25 +5,30 @@
 
 body nav {
   background-color: rgb(248, 238, 225);
-  height: 60px;
+}
+body nav .plist2 {
+  height: 200px;
+  background-color: white;
 }
 body nav .navbar {
-  background-color: rgb(248, 238, 225);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  height: 80px;
   align-items: center;
-  height: 100%;
-  max-width: 70%;
   margin: 0 auto;
 }
-body nav .navbar img {
-  width: 35px;
-  height: 30px;
+body nav .navbar .navimage {
+  width: 5%;
+}
+body nav .navbar .navimage img {
+  width: 70%;
+  height: 50%;
 }
 body nav .navbar .plist {
   display: flex;
-  gap: 50px;
-  margin-left: 100px;
+  margin-top: 5px;
+  width: 60%;
+  justify-content: space-between;
 }
 body nav .navbar .plist a {
   text-decoration: none;
@@ -34,7 +39,9 @@ body nav .navbar .plist a:hover {
 }
 body nav .navbar .icontext {
   display: flex;
-  gap: 30px;
+  width: 20%;
+  justify-content: space-between;
+  margin-top: 5px;
 }
 body nav .navbar .icontext a {
   text-decoration: none;
@@ -125,4 +132,41 @@ body footer .footerwrapper .logo a {
   text-decoration: none;
   color: wheat;
   font-size: 9px;
+}
+
+@media (min-width: 812px) {
+  .navbar {
+    max-width: 70%;
+  }
+  .herosectionwrapper {
+    display: flex;
+  }
+}
+@media (max-width: 812px) {
+  .navbar {
+    max-width: 90%;
+  }
+  .tinysection {
+    display: none;
+  }
+  .herosectionwrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1118px) {
+  .herosectionwrapper {
+    display: flex;
+    gap: 40px;
+  }
+}
+@media (max-width: 1000px) {
+  .herosectionwrapper {
+    display: flex;
+    gap: 40px;
+  }
+  .herosectionwrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
